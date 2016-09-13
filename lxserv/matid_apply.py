@@ -37,6 +37,7 @@ class MatIDApply(lxu.command.BasicCommand):
 
     def basic_Execute(self, msg, flags):
         if self.dyna_IsSet(0):
+            reload(cs_matid)
             matid = cs_matid.MatIDApplyClass(self.dyna_String(0, '1.01.01.0'))
             matid.create_material()
 
