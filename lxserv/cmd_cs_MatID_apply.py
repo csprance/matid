@@ -14,16 +14,13 @@
 ################################################################################
 
 import lx
-import lxifc
 import lxu.command
-import modo
 import cs_matid
 
 
 class MatIDApply(lxu.command.BasicCommand):
     def __init__(self):
         lxu.command.BasicCommand.__init__(self)
-        reload(cs_matid)
         self.dyna_Add('swatch_color', lx.symbol.sTYPE_STRING)
 
     def cmd_Flags(self):

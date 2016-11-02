@@ -16,5 +16,5 @@ fancy. Let me know if you run into any issues and if it works on other versions 
 * Delete `csprance_matid` from `%appdata%/Luxology/Kits`
 
 ## Credits
-
+[colour](https://github.com/vaab/colour) - Colour library by vaab - I've included this alongside the code no need to have it
 
